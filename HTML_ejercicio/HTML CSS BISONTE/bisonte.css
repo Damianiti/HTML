@@ -1,0 +1,126 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* --- ENCABEZADO --- */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.menu a.active {
+    background-color: #00bfff;
+    border-radius: 5px;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.container {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* --- TÍTULO --- */
+.titulo h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.titulo p {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* --- IMAGEN --- */
+.imagen img {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* --- SECCIÓN DIVIDIDA --- */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* --- COLUMNA IZQUIERDA --- */
+.izquierda {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+
+.izquierda .bloque {
+    margin-bottom: 25px;
+}
+
+.izquierda ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.izquierda li::before {
+    content: "• ";
+    color: #888;
+}
+
+/* --- COLUMNA DERECHA --- */
+.derecha {
+    flex: 2;
+    padding-left: 30px;
+}
+
+.derecha article {
+    margin-bottom: 30px;
+}
+
+.derecha h2 {
+    margin-bottom: 5px;
+}
+
+.fecha {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.fecha span {
+    color: #00bfff;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}

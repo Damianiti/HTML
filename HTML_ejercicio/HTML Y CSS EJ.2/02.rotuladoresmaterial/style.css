@@ -1,0 +1,91 @@
+/* 1. Estilos Básicos para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Quita el espacio extra alrededor de la página */
+    background-color: #f4f4f4; /* Fondo gris muy claro */
+}
+
+/* 2. Cabecera (El área marrón oscura de "Staedtler") */
+header {
+    background-color: #5D4037; /* Marrón oscuro */
+    color: white; /* Letras blancas */
+    padding: 20px 0; /* Espacio arriba y abajo */
+    text-align: center; /* Centra el texto */
+}
+
+header h1 {
+    font-size: 3em; /* Letra grande */
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+/* 3. Menú de Navegación (La barra mostaza) */
+nav {
+    background-color: #FFD700; /* Mostaza/Dorado */
+}
+
+nav ul {
+    list-style: none; /* Quita las viñetas */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos */
+}
+
+nav li {
+    display: inline-block; /* Pone los enlaces uno al lado del otro */
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none; /* Quita el subrayado */
+    color: #333; /* Color de letra oscuro */
+}
+
+/* 4. Estructura de Columnas (¡Lo más importante!) */
+.container {
+    width: 900px; /* Ancho fijo para el contenido */
+    margin: 20px auto; /* Centra el contenedor y le da espacio */
+    overflow: hidden; /* Esto arregla problemas de flotación */
+}
+
+.main-content {
+    width: 65%; /* Ocupa el 65% del ancho del contenedor */
+    float: left; /* Lo mueve a la izquierda para que la sidebar quepa al lado */
+}
+
+.sidebar {
+    width: 30%; /* Ocupa el 30% del ancho (deja un 5% de espacio) */
+    float: right; /* Lo mueve a la derecha */
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* 5. Estilos de los Artículos */
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* 6. Estilos de la Sidebar (Widgets) */
+.widget h2 {
+    color: #5D4037;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget a {
+    text-decoration: none;
+    color: #007bff;
+}

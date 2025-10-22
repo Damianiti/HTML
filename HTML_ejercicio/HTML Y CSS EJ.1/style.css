@@ -1,0 +1,153 @@
+/* ======== Reset básico ======== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #4d4d4d url('sugar/img/siteBackground.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b3c2b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ======== Contenedor principal ======== */
+#container {
+    width: 800px;
+    margin: 40px auto;
+    background: #f4e6c3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* ======== Encabezado ======== */
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #6a3d1f;
+    margin: 10px 0 0 0;
+}
+
+.subtitle {
+    color: #3ba3b3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.header-img {
+    background: url('sugar/img/headerPic.jpg') no-repeat center center;
+    background-size: cover;
+    height: 150px;
+}
+
+/* ======== Navegación ======== */
+nav {
+    background: #d2b48c;
+    border-top: 1px solid #c3a374;
+    border-bottom: 1px solid #c3a374;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #4b3c2b;
+}
+
+nav ul li.active,
+nav ul li a:hover {
+    background: #b77a46;
+    color: #fff;
+}
+
+/* ======== Sección superior ======== */
+#top-section {
+    padding: 20px;
+}
+
+.box {
+    width: 30%;
+    float: left;
+    background: #e7d5a9;
+    margin-right: 3.3333%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* ======== Sección inferior ======== */
+#bottom-section {
+    padding: 20px;
+}
+
+.left-content {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 35%;
+    float: right;
+    background: #f3e1b8;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #c8b47d;
+    padding: 5px 0;
+}
+
+/* ======== Footer ======== */
+footer {
+    clear: both;
+    background: #d2b48c;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #4b3c2b;
+}
+
+footer a {
+    color: #4b3c2b;
+    font-weight: bold;
+}
